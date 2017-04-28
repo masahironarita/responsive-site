@@ -44,29 +44,28 @@ section h2
 {
     font-size: 2rem;
 }
-
-
-
 #text h2
 {
     margin-bottom: 60px;
     color: #fdfcf6;
 }
-
-
 #text .container
 {
-    display: -webkit-flex;
     display:         flex;
 
     justify-content: space-between;
-    
 }
 
+p{
+    padding: 10px;
+}
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
+    .box{
+        height: 250px;
+    }
 }
 
 .text-box
@@ -79,7 +78,6 @@ section h2
     background-color: #fdfcf6;
 
 }
-
 .text-box h3
 {
     background-color: gray;
